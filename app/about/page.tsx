@@ -72,13 +72,6 @@ export default function AboutPage() {
                 </span>
               </div>
 
-              <div className="flex justify-between items-center group">
-                <span className="text-zinc-500 group-hover:text-white transition-colors">UPTIME (CGPA)</span>
-                <span className="text-brand-green bg-brand-green/10 px-2 py-0.5 rounded">
-                  <CountUp to={8} duration={3} />.<CountUp to={3} duration={3} delay={0.5} />
-                </span>
-              </div>
-
               <div className="flex justify-between items-center group mt-4 pt-4 border-t border-white/5">
                 <span className="text-zinc-500 group-hover:text-white transition-colors">SYS_LOCATION</span>
                 <span className="text-white text-right">Hyderabad,<br/>IN</span>
